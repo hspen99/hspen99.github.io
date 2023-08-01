@@ -45,24 +45,18 @@ nav ul li, footer ul li { display: inline; margin-right: 20px; color:white; }
 .fixed-footer ul li { display: inline; color:white; padding-left:5%; }
 
 footer ul li {height: 10%;}
-
-/* footer { border-top: 1px solid #d5d5d5; background-color:rgb(145, 84, 84) ; font-size: .8em; } */
 .fixed-footer { font-size: .8em; width: 144.3%; margin-right: auto; margin-left: -22.4%; margin-top: auto;}
 
 .text {padding-left: 10px}
 .para { padding-left: 10px; padding-right: 10px; text-align: justify;
     text-justify: inter-word;}
 
-/* Blog */
-ul.posts { margin: 20px auto 40px; font-size: 1em; }
-ul.posts li { list-style: none; }
-
 /* CV */
 .cv { margin-bottom: 20px; }
 .cv h1 { font-size: 2em; }
 .cv h2 { font-size: 1.5em; }
-.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-.cv address, .cv p { font-size: 1em; }
+.cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+.cv p { font-size: 1em; }
 .cv .download { float: right; padding-right: 10px; padding-top: 3%; font-size: .8em; text-transform: uppercase; text-decoration: none; text-decoration: bold; color:dimgrey}
 
 .fixed-header {
