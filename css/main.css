@@ -12,10 +12,10 @@ body { padding: 0px; margin-top: 0%; width: 99%; background: url(triangles.png) 
 .heada { text-decoration: none; text-decoration: bold; color:white }
 a:hover { text-decoration: underline; }
 
-.container {width:70%; margin-left: 15%; padding-top:3%; background-color: white;
+.container {width:70%; margin-left: 15%; padding-top:50px; background-color: white;
 	display: flex;
 	flex-direction: column;
-  min-height: 93.8%;
+  height: auto;
 }
 
 p, ul { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; font-size: 1em; line-height: 1em; color: #333; }
@@ -61,6 +61,7 @@ footer ul li {height: 10%;}
 
 .fixed-header {
   width: 101%;
+  height: 50px;
   position: fixed;        
   background: maroon;
 }
