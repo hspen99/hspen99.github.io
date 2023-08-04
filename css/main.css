@@ -15,7 +15,7 @@ a:hover { text-decoration: underline; }
 .container {width:70%; margin-left: 15%; padding-top:50px; background-color: white;
 	display: flex;
 	flex-direction: column;
-  height: auto;
+  min-height: calc(100vh - 50px);
 }
 
 p, ul { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; font-size: 1em; line-height: 1em; color: #333; }
@@ -32,7 +32,7 @@ img {float:right; padding-left: 10px; padding-right:10px}
 
 .name {float: left; margin-left:5%; font-size: 1.5em}
 
-.fixed-footer {background-color: gray; float:bottom;}
+.fixed-footer {background-color: gray; float:bottom; bottom:0; left:0;}
 header {background-color: maroon; margin-left: -1%;}
 nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; list-style: none; font-weight: bold; color: white;}
 nav ul {text-align: right; background-color:maroon; padding-right: 5%;}
