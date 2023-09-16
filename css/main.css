@@ -119,9 +119,3 @@ header {
 .fixed-footer {
   font-size: 1rem;
 }
-
-@media (max-width: 70em) {
-  body {
-      font-size: 14px;
-  }
-}
