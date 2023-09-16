@@ -80,7 +80,7 @@ footer ul li {height: 10%;}
   bottom: 0;
 }
 
-@media (max-width: 60em) {
+@media (max-width: 80em) {
   .container {
     margin-left: 0;
     width: 100%;
