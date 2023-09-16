@@ -80,7 +80,7 @@ footer ul li {height: 10%;}
   bottom: 0;
 }
 
-@media (max-width: 80em) {
+@media (max-width: 70em) {
   .container {
     margin-left: 0;
     width: 100%;
@@ -105,5 +105,23 @@ footer ul li {height: 10%;}
 
   .fixed-header {
     width: 100%
+  }
+}
+
+body {
+  font-size: 16px;
+}
+
+header {
+  font-size: 1rem;
+}
+
+.fixed-footer {
+  font-size: 1rem;
+}
+
+@media (max-width: 70em) {
+  body {
+      font-size: 14px;
   }
 }
