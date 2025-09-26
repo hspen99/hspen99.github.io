@@ -55,14 +55,6 @@ footer ul li {height: 10%;}
 .para { padding-left: 10px; padding-right: 10px; text-align: justify;
     text-justify: inter-word;}
 
-/* CV */
-.cv { margin-bottom: 20px; }
-.cv h1 { font-size: 2em; }
-.cv h2 { font-size: 1.5em; }
-.cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-.cv p { font-size: 1em; }
-.cv .download { float: right; padding-right: 10px; padding-top: 3%; font-size: .8em; text-transform: uppercase; text-decoration: none; text-decoration: bold; color:dimgrey}
-
 .fixed-header {
   width: 101%;
   height: 50px;
